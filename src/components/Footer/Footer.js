@@ -7,7 +7,7 @@ export default function Footer() {
 <div className="container">
     <div className="row">
         <div className="col">
-        <p className='text-center mb-0'>&copy; {year}. All Rights Reserved.</p>
+        <p className='text-center mb-0'>&copy; {year}. All Rights Reserved. Developed by <strong> Ali Asghar Jamati.</strong> </p>
         </div>
     </div>
 </div>

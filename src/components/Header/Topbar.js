@@ -12,8 +12,8 @@ export default function Topbar() {
     }, [])
 
     return (
-        <header>
-            <p className="text-center mb-0 bg-info py-1">
+        <header id='topbar'>
+            <p className="text-center mb-0 bg-info">
                 {time}
             </p>
         </header>

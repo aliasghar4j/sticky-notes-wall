@@ -1,0 +1,94 @@
+.home-layout {
+    display: flex;
+    // flex: 0 1 auto;
+    height: 90.25vh !important;
+    // overflow: hidden;
+    background-color: white;
+}
+.side-pannel {
+    overflow-y: auto;
+    max-height: 100%;
+    // flex: 0 1 auto;
+    scrollbar-width: none;
+    background-color: $firstColor !important;
+    z-index: 2;
+}
+body::-webkit-scrollbar-width,
+.side-pannel::-webkit-scrollbar,
+.wall::-webkit-scrollbar {
+    display: none;
+}
+.wall-container {
+    height: 45%;
+    width: 100%;
+}
+.wall-container .row {
+    width: 100%;
+}
+.card1 {
+    display: inline-block;
+    min-width: 23%;
+    max-width: 23%;
+    background-color: rgb(196, 255, 255);
+}
+.side-header,.side-content,.side-footer {
+    background-color: $firstColor !important;
+    .icon {
+        margin-right: 1rem;
+    }
+}
+.side-content {
+    flex: 1 0 auto
+}
+.search-box {
+    background-color: $firstColor !important;
+}
+.content-header {
+    background-color: white !important;
+}
+.content-layout {
+    background-color: white !important;
+    display: flex;
+
+    // flex: 0 1 auto;
+    // overflow: auto;
+}
+.wall {
+    overflow-y: auto;
+    overflow-x: hidden;
+    // flex: 0 1 auto;
+    z-index: 0;
+    scrollbar-width: none;
+    background-color: $secondColor !important;
+    border-color: $firstColor !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:start;
+    align-items: start;
+}
+.addCard {
+    transition: 5s;
+    min-height: 250px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $firstColor;
+}
+.add {
+    font-size: 120px !important;
+    transition: transform 0.5s ease-in-out;
+}
+.ant-layout-sider-trigger {
+    display: none !important;
+}
+.side-pannel-layout,.ant-layout-sider-has-trigger {
+    background-color: $firstColor !important;
+    padding-bottom: 0 !important;
+}
+.note-card {
+    transition: 5s;
+    padding: 1rem;
+    min-height: 250px;
+    background-color: rgb(229, 228, 226)
+}
